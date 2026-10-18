@@ -22,14 +22,15 @@ footer {
 }
 
 /* Make hobby bullets square */
-.hobbies {
+ul.hobbies {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+ul.hobbies li {
     list-style-type: square;
 }
 
-/* Add a background to odd hobby items */
-.hobbies li:nth-child(odd) {
-    background-color: lightgray;
-}
 
 /* Remove bullets from navigation list, if used */
 nav ul {
